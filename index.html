@@ -1,0 +1,720 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <title>Matrimony | Find Your Match</title>
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+  <meta name="description"
+content="Find verified bride and groom profiles across India. Trusted matrimonial platform with secure matchmaking.">
+
+<meta name="keywords"
+content="matrimony, marriage, muslim matrimony, bride, groom, matchmaking">
+  <!-- Bootstrap CSS -->
+  <link rel="stylesheet" href="css/bootstrap.css">
+  <!-- Google Fonts -->
+  <link href="https://fonts.googleapis.com/css2?family=Poppins&display=swap" rel="stylesheet">
+  <!-- Font Awesome (Icons) -->
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css">
+  <!-- Animate CSS -->
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/animate.css/4.1.1/animate.min.css">
+  <!-- Custom CSS -->
+  <link rel="stylesheet" href="css/style.css">
+ 
+ 
+
+
+
+</head>
+<body>
+
+<!-- ✅ HEADER START -->
+<header>
+  <nav class="navbar navbar-expand-lg navbar-dark bg-dark shadow-sm">
+    <div class="container">
+      <!-- Logo / Branding -->
+      <a class="navbar-brand fw-bold fs-4" href="#">
+        <i class="fa-solid fa-heart-circle-check text-danger me-2"></i> Matrimony
+      </a>
+
+      <!-- Toggler for Mobile View -->
+      <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#mainNavbar">
+        <span class="navbar-toggler-icon"></span>
+      </button>
+
+      <!-- Navbar Links -->
+      <div class="collapse navbar-collapse" id="mainNavbar">
+        <ul class="navbar-nav ms-auto mb-2 mb-lg-0">
+          <li class="nav-item"><a class="nav-link active" href="#">Home</a></li>
+          <li class="nav-item"><a class="nav-link active" href="#">Search</a></li>
+          <li class="nav-item"><a class="nav-link active" href="#">About</a></li>
+          <li class="nav-item"><a class="nav-link active" href="#">Contact</a></li>
+          <li class="nav-item">
+            <a class="btn btn-outline-danger ms-3 px-4" href="login.html">Login</a>
+          </li>
+          <li class="nav-item">
+            <a class="btn btn-danger ms-2 px-4" href="register.html">Register</a>
+          </li>
+        </ul>
+      </div>
+    </div>
+  </nav>
+</header>
+<!-- ✅ HEADER END -->
+
+
+
+<!-- 🎯 HERO SECTION WITH BACKGROUND IMAGE -->
+<section class="hero-bg d-flex align-items-center text-center text-white" style="background-image: url(images/bannerbg-27164196.jpg);" >
+  <div class="container">
+
+    <h1 class="display-4 fw-bold mb-3 animate__animated animate__fadeInDown">
+        Find Your Life Partner With Confidence ❤️
+    </h1>
+
+    <p class="lead animate__animated animate__fadeInUp animate__delay-1s">
+        Verified Profiles • Secure Matchmaking • Trusted Across India
+    </p>
+
+    <!-- Hero Stats -->
+    <div class="d-flex justify-content-center gap-4 mt-4 flex-wrap animate__animated animate__fadeInUp animate__delay-1s">
+
+        <div>
+            <h4 class="fw-bold text-danger mb-0">50K+</h4>
+            <small>Members</small>
+        </div>
+
+        <div>
+            <h4 class="fw-bold text-danger mb-0">10K+</h4>
+            <small>Success Stories</small>
+        </div>
+
+        <div>
+            <h4 class="fw-bold text-danger mb-0">98%</h4>
+            <small>Verified Profiles</small>
+        </div>
+
+    </div>
+
+    <!-- Buttons -->
+    <div class="d-flex justify-content-center gap-3 mt-4 flex-wrap animate__animated animate__zoomIn animate__delay-2s">
+
+        <a href="#" class="btn btn-danger btn-lg px-4">
+            Register Free
+        </a>
+
+        <a href="#" class="btn btn-outline-light btn-lg px-4">
+            Browse Matches
+        </a>
+
+    </div>
+
+</div>
+</section>
+
+
+
+<!-- 🔍 ELEVATED SEARCH FILTERS SECTION -->
+<section class="search-section py-5 bg-light">
+  <div class="container">
+    <h2 class="text-center fw-bold text-dark mb-5 animate__animated animate__fadeInUp">
+      🔎 Refine Your Partner Search
+    </h2>
+
+    <div class="row justify-content-center">
+      <!-- Age -->
+      <div class="col-md-3 mb-3 animate__animated animate__fadeInLeft">
+        <label class="form-label"><i class="fa-solid fa-user-clock me-2 text-danger"></i> Age</label>
+        <input type="text" class="form-control shadow-sm" placeholder="e.g. 25 - 30">
+      </div>
+
+      <!-- Religion -->
+      <div class="col-md-3 mb-3 animate__animated animate__fadeInUp">
+        <label class="form-label"><i class="fa-solid fa-praying-hands me-2 text-danger"></i> Religion</label>
+        <select class="form-select shadow-sm">
+          <option selected disabled>Choose Religion</option>
+          <option>Hindu</option>
+          <option>Muslim</option>
+          <option>Sikh</option>
+          <option>Christian</option>
+        </select>
+      </div>
+
+      <!-- Location -->
+      <div class="col-md-3 mb-3 animate__animated animate__fadeInRight">
+        <label class="form-label"><i class="fa-solid fa-location-dot me-2 text-danger"></i> Location</label>
+        <input type="text" class="form-control shadow-sm" placeholder="e.g. Lucknow">
+      </div>
+ <!-- Search Button -->
+       <div class="col-md-2 d-grid mt-4 animate__animated animate__zoomIn">
+        <button class="btn btn-danger btn-lg">
+          <i class="fa-solid fa-magnifying-glass me-2"></i> Search
+        </button>
+      </div>
+
+<!-- 📊 STATS COUNTER SECTION -->
+<section class="stats-section py-5 bg-white">
+  <div class="container">
+    <div class="row text-center g-4">
+
+      <div class="col-md-3">
+        <div class="stats-card shadow-sm p-4 rounded">
+          <i class="fa-solid fa-users fa-2x text-danger mb-3"></i>
+          <h2 class="fw-bold counter" data-target="50000">0</h2>
+          <p class="mb-0 text-muted">Active Profiles</p>
+        </div>
+      </div>
+
+      <div class="col-md-3">
+        <div class="stats-card shadow-sm p-4 rounded">
+          <i class="fa-solid fa-heart fa-2x text-danger mb-3"></i>
+          <h2 class="fw-bold counter" data-target="10000">0</h2>
+          <p class="mb-0 text-muted">Successful Matches</p>
+        </div>
+      </div>
+
+      <div class="col-md-3">
+        <div class="stats-card shadow-sm p-4 rounded">
+          <i class="fa-solid fa-city fa-2x text-danger mb-3"></i>
+         <h2 class="fw-bold counter" data-target="500">0</h2>
+          <p class="mb-0 text-muted">Cities Covered</p>
+        </div>
+      </div>
+
+      <div class="col-md-3">
+        <div class="stats-card shadow-sm p-4 rounded">
+          <i class="fa-solid fa-shield-heart fa-2x text-danger mb-3"></i>
+         <h2 class="fw-bold counter" data-target="98">0</h2>
+          <p class="mb-0 text-muted">Verified Members</p>
+        </div>
+      </div>
+
+    </div>
+  </div>
+</section>
+
+
+     
+     
+    </div>
+  </div>
+</section>
+
+
+<section class="trust-section py-5">
+  <div class="container">
+    
+    <h2 class="text-center fw-bold mb-5">
+      Why Choose Our Matrimony?
+    </h2>
+
+    <div class="row g-4">
+
+      <div class="col-md-3">
+        <div class="trust-card text-center p-4">
+          <i class="fa-solid fa-circle-check fa-3x text-danger mb-3"></i>
+          <h5>Verified Profiles</h5>
+          <p>Every profile is manually reviewed.</p>
+        </div>
+      </div>
+
+      <div class="col-md-3">
+        <div class="trust-card text-center p-4">
+          <i class="fa-solid fa-shield-halved fa-3x text-danger mb-3"></i>
+          <h5>100% Privacy</h5>
+          <p>Your information stays secure.</p>
+        </div>
+      </div>
+
+      <div class="col-md-3">
+        <div class="trust-card text-center p-4">
+          <i class="fa-solid fa-user-check fa-3x text-danger mb-3"></i>
+          <h5>Genuine Members</h5>
+          <p>No fake or duplicate accounts.</p>
+        </div>
+      </div>
+
+      <div class="col-md-3">
+        <div class="trust-card text-center p-4">
+          <i class="fa-solid fa-headset fa-3x text-danger mb-3"></i>
+          <h5>24/7 Support</h5>
+          <p>Always here to help you.</p>
+        </div>
+      </div>
+
+    </div>
+
+  </div>
+</section>
+
+
+<!-- ❤️ SUCCESS STORIES SECTION START -->
+<section class="success-stories py-5 bg-white">
+  <div class="container">
+
+    <h2 class="text-center fw-bold mb-5">
+      ❤️ Our Success Stories
+    </h2>
+
+    <div class="row g-4">
+
+      <!-- Story 1 -->
+      <div class="col-md-4">
+        <div class="story-card">
+          <img src="images/wedding1.jpg" alt="Ahmed & Fatima" class="img-fluid story-img">
+
+          <div class="story-content">
+            <h4>Ahmed ❤️ Fatima</h4>
+
+            <p>
+              We met through Matrimony and instantly connected.
+              Today we are happily married and grateful for this platform.
+            </p>
+
+            <span class="badge bg-danger">
+              Married in 2024
+            </span>
+          </div>
+        </div>
+      </div>
+
+      <!-- Story 2 -->
+      <div class="col-md-4">
+        <div class="story-card">
+          <img src="images/wedding2.jpg" alt="Rahul & Priya" class="img-fluid story-img">
+
+          <div class="story-content">
+            <h4>Rahul ❤️ Priya</h4>
+
+            <p>
+              Finding the right life partner felt difficult until we joined.
+              Thank you for helping us find each other.
+            </p>
+
+            <span class="badge bg-danger">
+              Married in 2023
+            </span>
+          </div>
+        </div>
+      </div>
+
+      <!-- Story 3 -->
+      <div class="col-md-4">
+        <div class="story-card">
+          <img src="images/wedding3.jpg" alt="Ali & Sana" class="img-fluid story-img">
+
+          <div class="story-content">
+            <h4>Ali ❤️ Sana</h4>
+
+            <p>
+              A beautiful journey started with a simple profile match.
+              Now we are building our future together.
+            </p>
+
+            <span class="badge bg-danger">
+              Married in 2025
+            </span>
+          </div>
+        </div>
+      </div>
+
+    </div>
+
+  </div>
+</section>
+<!-- ❤️ SUCCESS STORIES SECTION END -->
+
+
+
+<!-- 👤 FEATURED PROFILES CARD SECTION -->
+<section class="featured-profiles py-5 bg-light text-dark">
+  <div class="container">
+    <h2 class="text-center fw-bold mb-5 animate__animated animate__fadeInUp">
+      👤 Featured Matrimony Profiles
+    </h2>
+
+    <div class="row g-4">
+      <!-- Profile Card -->
+      <div class="col-md-6 col-lg-4">
+        <div class="card profile-card h-100 shadow animate__animated animate__fadeInUp">
+          <img src="images/ayesha.jpg" class="card-img-top" alt="Ayesha, 26">
+          <div class="card-body text-center">
+            <h5 class="card-title">Ayesha, 26</h5>
+            <p class=" text-light">Doctor | Mumbai</p>
+            <a href="#" class="btn btn-danger btn-sm">View Profile</a>
+          </div>
+        </div>
+      </div>
+
+      <!-- Profile Card -->
+      <div class="col-md-6 col-lg-4">
+        <div class="card profile-card h-100 shadow animate__animated animate__fadeInUp">
+          <img src="images/ayesha.jpg" class="card-img-top" alt="Rahul, 30">
+          <div class="card-body text-center">
+            <h5 class="card-title">Rahul, 30</h5>
+            <p class="text-light">Engineer | Pune</p>
+            <a href="#" class="btn btn-danger btn-sm">View Profile</a>
+          </div>
+        </div>
+      </div>
+      
+      <!-- Profile Card -->
+      <div class="col-md-6 col-lg-4">
+        <div class="card profile-card h-100 shadow animate__animated animate__fadeInUp">
+          <img src="images/ayesha.jpg" class="card-img-top" alt="Rahul, 30">
+          <div class="card-body text-center">
+            <h5 class="card-title">Rahul, 30</h5>
+            <p class="text-light">Engineer | Pune</p>
+            <a href="#" class="btn btn-danger btn-sm">View Profile</a>
+          </div>
+        </div>
+      </div>
+    
+      <!-- Add more profiles here -->
+    </div>
+  </div>
+</section>
+
+
+
+
+
+
+<!-- 🎯 HOW IT WORKS SECTION -->
+<section class="how-it-works py-5 bg-white">
+  <div class="container">
+    <h2 class="text-center fw-bold mb-5 animate__animated animate__fadeInUp">
+      💡 How Our Platform Works
+    </h2>
+    <div class="row g-4 text-center">
+
+      <!-- Step 1 -->
+      <div class="col-md-4 animate__animated animate__fadeInLeft">
+        <i class="fa-solid fa-user-plus fa-3x text-danger mb-3"></i>
+        <h5>Register</h5>
+        <p class="text-muted">Create your free account in just 2 minutes.</p>
+      </div>
+
+      <!-- Step 2 -->
+      <div class="col-md-4 animate__animated animate__fadeInUp">
+        <i class="fa-solid fa-id-card fa-3x text-danger mb-3"></i>
+        <h5>Create Profile</h5>
+        <p class="text-muted">Fill in personal details and preferences.</p>
+      </div>
+
+      <!-- Step 3 -->
+      <div class="col-md-4 animate__animated animate__fadeInRight">
+        <i class="fa-solid fa-heart fa-3x text-danger mb-3"></i>
+        <h5>Find Match</h5>
+        <p class="text-muted">Browse compatible profiles and start connecting.</p>
+      </div>
+
+    </div>
+  </div>
+</section>
+
+
+
+<!-- 💬 TESTIMONIALS SECTION -->
+<section class="testimonials py-5 bg-white">
+  <div class="container">
+    <h2 class="text-center fw-bold mb-5 animate__animated animate__fadeInUp">
+      💬 What Our Users Say
+    </h2>
+    <div class="row g-4 justify-content-center text-center">
+
+      <!-- Testimonial 1 -->
+      <div class="col-md-5 animate__animated animate__fadeInLeft">
+        <div class="border rounded p-4 shadow-sm">
+          <p class="text-muted">
+            “I found the love of my life here! Thank you Matrimony team for helping us connect.”
+          </p>
+          <h6 class="mt-3 text-danger">— Raj & Neha</h6>
+        </div>
+      </div>
+
+      <!-- Testimonial 2 -->
+      <div class="col-md-5 animate__animated animate__fadeInRight">
+        <div class="border rounded p-4 shadow-sm">
+          <p class="text-muted">
+            “A very secure and genuine platform with real matches. I recommend it to everyone.”
+          </p>
+          <h6 class="mt-3 text-danger">— Priya, Delhi</h6>
+        </div>
+      </div>
+
+    </div>
+  </div>
+</section>
+
+
+
+<section class="cta-banner py-5 text-center text-white" style="background-color: #dc3545;">
+  <div class="container">
+    <h2 class="fw-bold mb-3">Ready to Begin Your Journey?</h2>
+    <p class="mb-4">Create your profile and connect with genuine matches today.</p>
+    <a href="#" class="btn btn-light btn-lg px-4">Create Profile Now</a>
+  </div>
+</section>
+
+<!-- 💎 MEMBERSHIP PLANS -->
+<section class="pricing-section py-5 bg-light">
+  <div class="container">
+
+    <h2 class="text-center fw-bold mb-3">
+      💎 Membership Plans
+    </h2>
+
+    <p class="text-center text-muted mb-5">
+      Choose the plan that suits your matchmaking journey.
+    </p>
+
+    <div class="row g-4">
+
+      <!-- Free Plan -->
+      <div class="col-md-4">
+        <div class="pricing-card text-center p-4">
+          <h3>Free</h3>
+          <h1 class="my-3">₹0</h1>
+
+          <ul class="list-unstyled">
+            <li>✔ Create Profile</li>
+            <li>✔ Search Profiles</li>
+            <li>✔ View Limited Profiles</li>
+            <li>❌ Direct Chat</li>
+          </ul>
+
+          <a href="#" class="btn btn-outline-danger mt-3">
+            Get Started
+          </a>
+        </div>
+      </div>
+
+      <!-- Premium -->
+      <div class="col-md-4">
+        <div class="pricing-card featured-plan text-center p-4">
+          <span class="badge bg-danger mb-3">
+            Most Popular
+          </span>
+
+          <h3>Premium</h3>
+          <h1 class="my-3">₹499</h1>
+
+          <ul class="list-unstyled">
+            <li>✔ Unlimited Profile Views</li>
+            <li>✔ Send Interests</li>
+            <li>✔ Priority Search</li>
+            <li>✔ Direct Chat</li>
+          </ul>
+
+          <a href="#" class="btn btn-danger mt-3">
+            Choose Plan
+          </a>
+        </div>
+      </div>
+
+      <!-- Gold -->
+      <div class="col-md-4">
+        <div class="pricing-card text-center p-4">
+          <h3>Gold</h3>
+          <h1 class="my-3">₹999</h1>
+
+          <ul class="list-unstyled">
+            <li>✔ Everything in Premium</li>
+            <li>✔ Profile Boost</li>
+            <li>✔ Dedicated Support</li>
+            <li>✔ Verified Badge</li>
+          </ul>
+
+          <a href="#" class="btn btn-outline-danger mt-3">
+            Choose Plan
+          </a>
+        </div>
+      </div>
+
+    </div>
+
+  </div>
+</section>
+
+
+
+<!-- BLOG SECTION -->
+
+<section class="blog-section py-5 bg-white">
+    <div class="container">
+
+        <h2 class="text-center fw-bold mb-5">
+            📝 Matrimony Tips & Advice
+        </h2>
+
+        <div class="row g-4">
+
+            <div class="col-md-4">
+                <div class="blog-card">
+
+                    <img src="images/advice1.png" class="img-fluid blog-img">
+
+                    <div class="p-4">
+                        <h5>
+                            How To Create The Perfect Matrimony Profile
+                        </h5>
+
+                        <p>
+                            Learn how to attract genuine matches by creating an impressive profile.
+                        </p>
+
+                        <a href="#" class="btn btn-outline-danger">
+                            Read More
+                        </a>
+                    </div>
+
+                </div>
+            </div>
+
+            <div class="col-md-4">
+                <div class="blog-card">
+
+                    <img src="images/advice2.png" class="img-fluid blog-img">
+
+                    <div class="p-4">
+                        <h5>
+                            10 Questions To Ask Before Marriage
+                        </h5>
+
+                        <p>
+                            Important conversations every couple should have before marriage.
+                        </p>
+
+                        <a href="#" class="btn btn-outline-danger">
+                            Read More
+                        </a>
+                    </div>
+
+                </div>
+            </div>
+
+            <div class="col-md-4">
+                <div class="blog-card">
+
+                    <img src="images/advice3.png" class="img-fluid blog-img">
+
+                    <div class="p-4">
+                        <h5>
+                            Finding Compatible Life Partners
+                        </h5>
+
+                        <p>
+                            Understand compatibility factors that lead to successful marriages.
+                        </p>
+
+                        <a href="#" class="btn btn-outline-danger">
+                            Read More
+                        </a>
+                    </div>
+
+                </div>
+            </div>
+
+        </div>
+
+    </div>
+</section>
+
+
+<section class="faqs py-5 bg-white">
+  <div class="container">
+    <h2 class="text-center fw-bold mb-5">❓ Frequently Asked Questions</h2>
+    <div class="accordion" id="faqAccordion">
+      
+      <div class="accordion-item">
+        <h2 class="accordion-header" id="faq1">
+          <button class="accordion-button" type="button" data-bs-toggle="collapse" data-bs-target="#ans1">
+            Is registration free?
+          </button>
+        </h2>
+        <div id="ans1" class="accordion-collapse collapse show" data-bs-parent="#faqAccordion">
+          <div class="accordion-body">
+            Yes! Creating your profile is absolutely free.
+          </div>
+        </div>
+      </div>
+
+      <div class="accordion-item">
+        <h2 class="accordion-header" id="faq2">
+          <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#ans2">
+            Is my data secure?
+          </button>
+        </h2>
+        <div id="ans2" class="accordion-collapse collapse" data-bs-parent="#faqAccordion">
+          <div class="accordion-body">
+            100% secure! We use encryption & privacy-first policies.
+          </div>
+        </div>
+      </div>
+
+    </div>
+  </div>
+</section>
+
+
+
+
+
+<footer class="bg-dark text-light pt-5">
+
+<div class="container">
+
+<div class="row">
+
+<div class="col-md-3">
+<h4>Matrimony💖</h4>
+<p>Trusted matrimonial platform for verified matches.</p>
+</div>
+
+<div class="col-md-3">
+<h5>Quick Links</h5>
+<ul class="list-unstyled">
+<li><a href="#">Home</a></li>
+<li><a href="#">Search</a></li>
+<li><a href="register.html">Register</a></li>
+</ul>
+</div>
+
+<div class="col-md-3">
+<h5>Support</h5>
+<ul class="list-unstyled">
+<li><a href="#">Contact</a></li>
+<li><a href="#">Privacy</a></li>
+<li><a href="#">Terms</a></li>
+</ul>
+</div>
+
+<div class="col-md-3">
+<h5>Social</h5>
+<i class="fab fa-facebook"></i>
+<i class="fab fa-instagram ms-3"></i>
+<i class="fab fa-linkedin ms-3"></i>
+</div>
+
+</div>
+
+<hr>
+
+<p class="text-center">
+© 2026 Matrimony | Developed by Ubaid Rehman
+</p>
+
+</div>
+
+</footer>
+
+
+  <!-- JS Files -->
+  <script src="js/bootstrap.bundle.js"></script>
+  <script src="js/script.js"></script>
+  <a href="#" class="whatsapp-float">
+    <i class="fab fa-whatsapp"></i>
+</a>
+</body>
+</html>

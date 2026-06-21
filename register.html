@@ -1,0 +1,262 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+    <title>Register | Matrimony</title>
+
+    <link rel="stylesheet" href="css/bootstrap.css">
+    <link rel="stylesheet" href="css/style.css">
+
+    <style>
+        body {
+            background: #f8f9fa;
+        }
+
+        .register-section {
+            min-height: 100vh;
+            display: flex;
+            align-items: center;
+            padding: 50px 0;
+        }
+
+        .register-card {
+            background: #fff;
+            border-radius: 20px;
+            overflow: hidden;
+            box-shadow: 0 10px 30px rgba(0, 0, 0, .1);
+        }
+
+        .register-image img {
+            height: 100%;
+            width: 100%;
+            object-fit: cover;
+        }
+
+        .form-control,
+        .form-select {
+            height: 55px;
+            border-radius: 12px;
+        }
+
+        .btn-register {
+            height: 55px;
+            border-radius: 12px;
+            font-weight: 600;
+        }
+
+        @media(max-width:768px) {
+            .register-image {
+                display: none;
+            }
+        }
+    </style>
+
+</head>
+
+<body>
+
+
+    <!-- ✅ HEADER START -->
+    <header>
+        <nav class="navbar navbar-expand-lg navbar-dark bg-dark shadow-sm">
+            <div class="container">
+                <!-- Logo / Branding -->
+                <a class="navbar-brand fw-bold fs-4" href="#">
+                    <i class="fa-solid fa-heart-circle-check text-danger me-2"></i> Matrimony
+                </a>
+
+                <!-- Toggler for Mobile View -->
+                <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#mainNavbar">
+                    <span class="navbar-toggler-icon"></span>
+                </button>
+
+                <!-- Navbar Links -->
+                <div class="collapse navbar-collapse" id="mainNavbar">
+                    <ul class="navbar-nav ms-auto mb-2 mb-lg-0">
+                        <li class="nav-item"><a class="nav-link active" href="index.html">Home</a></li>
+                        <li class="nav-item"><a class="nav-link active" href="#">Search</a></li>
+                        <li class="nav-item"><a class="nav-link active" href="#">About</a></li>
+                        <li class="nav-item"><a class="nav-link active" href="#">Contact</a></li>
+                        <li class="nav-item">
+                            <a class="btn btn-outline-danger ms-3 px-4" href="#">Login</a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="btn btn-danger ms-2 px-4" href="register.html">Register</a>
+                        </li>
+                    </ul>
+                </div>
+            </div>
+        </nav>
+    </header>
+    <!-- ✅ HEADER END -->
+
+
+
+    <section class="register-section">
+
+        <div class="container">
+
+            <div class="register-card">
+
+                <div class="row g-0">
+
+                    <!-- LEFT FORM -->
+
+                    <div class="col-lg-6 p-5">
+
+                        <h2 class="fw-bold mb-4 text-center">
+                            Create Your Profile 💍
+                        </h2>
+
+                        <form>
+
+                            <div class="mb-3">
+                                <input type="text" class="form-control" placeholder="Full Name">
+                            </div>
+
+                            <div class="mb-3">
+                                <select class="form-select">
+                                    <option selected disabled>
+                                        Select Gender
+                                    </option>
+
+                                    <option>Male</option>
+                                    <option>Female</option>
+                                </select>
+                            </div>
+
+                            <div class="mb-3">
+                                <input type="date" class="form-control">
+                            </div>
+
+                            <div class="mb-3">
+                                <select class="form-select">
+
+                                    <option selected disabled>
+                                        Select Religion
+                                    </option>
+
+                                    <option>Muslim</option>
+                                    <option>Hindu</option>
+                                    <option>Sikh</option>
+                                    <option>Christian</option>
+
+                                </select>
+                            </div>
+
+                            <div class="mb-3">
+                                <input type="text" class="form-control" placeholder="City">
+                            </div>
+
+                            <div class="mb-3">
+                                <input type="email" class="form-control" placeholder="Email Address">
+                            </div>
+
+                            <div class="mb-3">
+                                <input type="tel" class="form-control" placeholder="Phone Number">
+                            </div>
+
+                            <div class="mb-3">
+                                <input type="password" class="form-control" placeholder="Password">
+                            </div>
+
+                            <div class="d-grid">
+
+                                <button class="btn btn-danger btn-register">
+
+                                    Create Account
+
+                                </button>
+
+                            </div>
+
+                            <p class="text-center mt-4">
+
+                                Already have an account?
+
+                                <a href="login.html" class="text-danger text-decoration-none">
+
+                                    Login
+
+                                </a>
+
+                            </p>
+
+                        </form>
+
+                    </div>
+
+                    <!-- RIGHT IMAGE -->
+
+                    <div class="col-lg-6 register-image">
+
+                        <img src="images/weddingregister.png" alt="Wedding Couple">
+
+                    </div>
+
+                </div>
+
+            </div>
+
+        </div>
+
+    </section>
+
+    <footer class="bg-dark text-light pt-5">
+
+        <div class="container">
+
+            <div class="row">
+
+                <div class="col-md-3">
+                    <h4>Matrimony💖</h4>
+                    <p>Trusted matrimonial platform for verified matches.</p>
+                </div>
+
+                <div class="col-md-3">
+                    <h5>Quick Links</h5>
+                    <ul class="list-unstyled">
+                        <li><a href="index.html">Home</a></li>
+                        <li><a href="#">Search</a></li>
+                        <li><a href="register.html">Register</a></li>
+                    </ul>
+                </div>
+
+                <div class="col-md-3">
+                    <h5>Support</h5>
+                    <ul class="list-unstyled">
+                        <li><a href="#">Contact</a></li>
+                        <li><a href="#">Privacy</a></li>
+                        <li><a href="#">Terms</a></li>
+                    </ul>
+                </div>
+
+                <div class="col-md-3">
+                    <h5>Social</h5>
+                    <i class="fab fa-facebook"></i>
+                    <i class="fab fa-instagram ms-3"></i>
+                    <i class="fab fa-linkedin ms-3"></i>
+                </div>
+
+            </div>
+
+            <hr>
+
+            <p class="text-center">
+                © 2026 Matrimony | Developed by Ubaid Rehman
+            </p>
+
+        </div>
+
+    </footer>
+
+
+
+    <script src="js/bootstrap.bundle.js"></script>
+
+</body>
+
+</html>
