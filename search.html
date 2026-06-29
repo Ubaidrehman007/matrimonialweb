@@ -1,0 +1,365 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+    <title>Search Profiles | Matrimony</title>
+
+    <link rel="stylesheet" href="css/bootstrap.css">
+    <link rel="stylesheet" href="css/search.css">
+
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css">
+    <link rel="stylesheet" href="index.html">
+
+</head>
+
+<body>
+
+    <!-- ✅ HEADER START -->
+    <header>
+        <nav class="navbar navbar-expand-lg navbar-dark bg-dark shadow-sm">
+            <div class="container">
+                <!-- Logo / Branding -->
+                <a class="navbar-brand fw-bold fs-4" href="#">
+                    <i class="fa-solid fa-heart-circle-check text-danger me-2"></i> Matrimony
+                </a>
+
+                <!-- Toggler for Mobile View -->
+                <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#mainNavbar">
+                    <span class="navbar-toggler-icon"></span>
+                </button>
+
+                <!-- Navbar Links -->
+                <div class="collapse navbar-collapse" id="mainNavbar">
+                    <ul class="navbar-nav ms-auto mb-2 mb-lg-0">
+                        <li class="nav-item"><a class="nav-link active" href="index.html">Home</a></li>
+                        <li class="nav-item"><a class="nav-link active" href="search.html">Search</a></li>
+                        <li class="nav-item"><a class="nav-link active" href="about.html">About</a></li>
+                        <li class="nav-item"><a class="nav-link active" href="contact.html">Contact</a></li>
+                        <li class="nav-item">
+                            <a class="btn btn-outline-danger ms-3 px-4" href="login.html">Login</a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="btn btn-danger ms-2 px-4" href="register.html">Register</a>
+                        </li>
+                    </ul>
+                </div>
+            </div>
+        </nav>
+    </header>
+    <!-- ✅ HEADER END -->
+
+
+
+    <!-- Loader -->
+
+    <div id="loader">
+        <div class="spinner-border text-danger"></div>
+    </div>
+
+    <!-- Navbar -->
+
+    <nav class="navbar navbar-expand-lg navbar-dark bg-dark">
+
+        <div class="container">
+
+            <a class="navbar-brand fw-bold" href="index.html">
+
+                💍 Matrimony
+
+            </a>
+
+        </div>
+
+    </nav>
+
+    <!-- Search Section -->
+
+    <section class="py-5">
+
+        <div class="container">
+
+            <div class="row">
+
+                <!-- Filters -->
+
+                <div class="col-lg-3 mb-4">
+
+                    <div class="filter-card">
+
+                        <h4 class="mb-4">
+                            Filter Profiles
+                        </h4>
+
+                        <div class="mb-3">
+
+                            <select class="form-select">
+
+                                <option>Gender</option>
+                                <option>Male</option>
+                                <option>Female</option>
+
+                            </select>
+
+                        </div>
+
+                        <div class="mb-3">
+
+                            <input type="number" class="form-control" placeholder="Age">
+
+                        </div>
+
+                        <div class="mb-3">
+
+                            <select class="form-select">
+
+                                <option>Religion</option>
+
+                                <option>Muslim</option>
+                                <option>Hindu</option>
+                                <option>Sikh</option>
+                                <option>Christian</option>
+
+                            </select>
+
+                        </div>
+
+                        <div class="mb-3">
+
+                            <input type="text" class="form-control" placeholder="City">
+
+                        </div>
+
+                        <div class="d-grid">
+
+                            <button class="btn btn-danger" id="filterBtn">
+
+                                Apply Filters
+
+                            </button>
+
+                        </div>
+
+                    </div>
+
+                </div>
+
+                <!-- Results -->
+
+                <div class="col-lg-9">
+
+                    <div class="d-flex justify-content-between mb-4">
+
+                        <h4>
+                            Search Results
+                        </h4>
+
+                        <span id="resultCount">
+                            6 Profiles Found
+                        </span>
+
+                    </div>
+
+                    <div class="row g-4">
+
+                        <!-- Card 1 -->
+
+                        <div class="col-md-6 col-xl-4">
+
+                            <div class="profile-card">
+
+                                <img src="images/ayesha.jpg" class="profile-img">
+
+                                <div class="profile-info text-center">
+
+                                    <span class="badge bg-success mb-2">
+
+                                        ✔ Verified
+
+                                    </span>
+
+                                    <h5>Ayesha Khan</h5>
+
+                                    <p>26 Years</p>
+
+                                    <p>Doctor | Mumbai</p>
+
+                                    <p>Muslim</p>
+
+                                    <a href="profile-details.html" class="btn btn-danger">
+
+                                        View Profile
+
+                                    </a>
+
+                                    <button class="btn btn-outline-danger mt-2 shortlist-btn">
+
+                                        ❤️ Shortlist
+
+                                    </button>
+
+                                </div>
+
+                            </div>
+
+                        </div>
+
+                        <!-- Card 2 -->
+
+                        <div class="col-md-6 col-xl-4">
+
+                            <div class="profile-card">
+
+                                <img src="images/ayesha.jpg" class="profile-img">
+
+                                <div class="profile-info text-center">
+
+                                    <span class="badge bg-success mb-2">
+
+                                        ✔ Verified
+
+                                    </span>
+
+                                    <h5>Rahul Sharma</h5>
+
+                                    <p>29 Years</p>
+
+                                    <p>Engineer | Pune</p>
+
+                                    <p>Hindu</p>
+
+                                    <a href="profile-details.html" class="btn btn-danger">
+
+                                        View Profile
+
+                                    </a>
+
+                                    <button class="btn btn-outline-danger mt-2 shortlist-btn">
+
+                                        ❤️ Shortlist
+
+                                    </button>
+
+                                </div>
+
+                            </div>
+
+                        </div>
+
+                        <!-- Card 3 -->
+
+                        <div class="col-md-6 col-xl-4">
+
+                            <div class="profile-card">
+
+                                <img src="images/ayesha.jpg" class="profile-img">
+
+                                <div class="profile-info text-center">
+
+                                    <span class="badge bg-success mb-2">
+
+                                        ✔ Verified
+
+                                    </span>
+
+                                    <h5>Sana Ali</h5>
+
+                                    <p>24 Years</p>
+
+                                    <p>Teacher | Delhi</p>
+
+                                    <p>Muslim</p>
+
+                                    <a href="profile-details.html" class="btn btn-danger">
+
+                                        View Profile
+
+                                    </a>
+
+                                    <button class="btn btn-outline-danger mt-2 shortlist-btn">
+
+                                        ❤️ Shortlist
+
+                                    </button>
+
+                                </div>
+
+                            </div>
+
+                        </div>
+
+                    </div>
+
+                </div>
+
+            </div>
+
+        </div>
+
+    </section>
+
+    <!-- Scroll Button -->
+
+    <button id="topBtn">
+
+        <i class="fa-solid fa-arrow-up"></i>
+
+    </button>
+
+    <footer class="bg-dark text-light pt-5">
+
+        <div class="container">
+
+            <div class="row">
+
+                <div class="col-md-3">
+                    <h4>Matrimony💖</h4>
+                    <p>Trusted matrimonial platform for verified matches.</p>
+                </div>
+
+                <div class="col-md-3">
+                    <h5>Quick Links</h5>
+                    <ul class="list-unstyled">
+                        <li><a href="index.html">Home</a></li>
+                        <li><a href="search.html">Search</a></li>
+                        <li><a href="register.html">Register</a></li>
+                    </ul>
+                </div>
+
+                <div class="col-md-3">
+                    <h5>Support</h5>
+                    <ul class="list-unstyled">
+                        <li><a href="contact.html">Contact</a></li>
+                        <li><a href="privacy.html">Privacy</a></li>
+                        <li><a href="terms.html">Terms</a></li>
+                    </ul>
+                </div>
+
+                <div class="col-md-3">
+                    <h5>Social</h5>
+                    <i class="fab fa-facebook"></i>
+                    <i class="fab fa-instagram ms-3"></i>
+                    <i class="fab fa-linkedin ms-3"></i>
+                </div>
+
+            </div>
+
+            <hr>
+
+            <p class="text-center">
+                © 2026 Matrimony | Developed by Ubaid Rehman
+            </p>
+
+        </div>
+
+    </footer>
+
+    <script src="js/bootstrap.bundle.js"></script>
+    <script src="js/search.js"></script>
+
+</body>
+
+</html>

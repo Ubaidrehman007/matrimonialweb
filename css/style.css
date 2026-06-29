@@ -322,3 +322,227 @@ footer a:hover {
     font-size:14px;
     color:#ddd;
 }
+
+/* Search CSs start
+ =========================
+   GLOBAL
+========================= */
+
+body{
+    background:#f8f9fa;
+    font-family:'Poppins',sans-serif;
+}
+
+/* =========================
+   LOADER
+========================= */
+
+#loader{
+    position:fixed;
+    top:0;
+    left:0;
+    width:100%;
+    height:100%;
+    background:#fff;
+    display:flex;
+    justify-content:center;
+    align-items:center;
+    z-index:99999;
+}
+
+/* =========================
+   NAVBAR
+========================= */
+
+.navbar{
+    position:sticky;
+    top:0;
+    z-index:9999;
+    backdrop-filter:blur(15px);
+    background:rgba(17,24,39,.95)!important;
+}
+
+.navbar-brand{
+    font-size:1.4rem;
+}
+
+/* =========================
+   FILTER CARD
+========================= */
+
+.filter-card{
+    background:#fff;
+    padding:25px;
+    border-radius:20px;
+    box-shadow:0 5px 20px rgba(0,0,0,.08);
+    position:sticky;
+    top:100px;
+}
+
+.filter-card h4{
+    font-weight:700;
+}
+
+.form-control,
+.form-select{
+    height:55px;
+    border-radius:12px;
+    border:1px solid #e5e5e5;
+}
+
+.form-control:focus,
+.form-select:focus{
+    border-color:#dc3545;
+    box-shadow:0 0 10px rgba(220,53,69,.15);
+}
+
+/* =========================
+   PROFILE CARD
+========================= */
+
+.profile-card{
+    background:#fff;
+    border-radius:20px;
+    overflow:hidden;
+    box-shadow:0 5px 20px rgba(0,0,0,.08);
+    transition:.4s;
+    height:100%;
+}
+
+.profile-card:hover{
+    transform:translateY(-10px);
+    box-shadow:0 15px 35px rgba(220,53,69,.15);
+}
+
+.profile-img{
+    width:100%;
+    height:280px;
+    object-fit:cover;
+    transition:.4s;
+}
+
+.profile-card:hover .profile-img{
+    transform:scale(1.05);
+}
+
+.profile-info{
+    padding:20px;
+}
+
+.profile-info h5{
+    font-weight:700;
+    margin-top:10px;
+}
+
+.profile-info p{
+    color:#666;
+    margin-bottom:8px;
+}
+
+.badge{
+    font-size:.85rem;
+}
+
+/* =========================
+   BUTTONS
+========================= */
+
+.btn-danger{
+    border-radius:10px;
+}
+
+.shortlist-btn{
+    width:100%;
+    border-radius:10px;
+}
+
+/* =========================
+   RESULT COUNT
+========================= */
+
+#resultCount{
+    font-weight:600;
+    color:#dc3545;
+}
+
+/* =========================
+   SCROLL TO TOP
+========================= */
+
+#topBtn{
+    position:fixed;
+    right:25px;
+    bottom:25px;
+    width:50px;
+    height:50px;
+    border:none;
+    border-radius:50%;
+    background:#dc3545;
+    color:#fff;
+    font-size:18px;
+    display:none;
+    cursor:pointer;
+    z-index:999;
+    box-shadow:0 5px 15px rgba(0,0,0,.2);
+}
+
+#topBtn:hover{
+    transform:translateY(-3px);
+}
+
+/* =========================
+   RESPONSIVE
+========================= */
+
+@media(max-width:992px){
+
+    .filter-card{
+        position:static;
+    }
+
+}
+
+@media(max-width:768px){
+
+    .profile-img{
+        height:250px;
+    }
+
+    .filter-card{
+        margin-bottom:20px;
+    }
+
+}
+/* Search CSs end */
+
+
+/* =========================
+   contact */
+body{
+    background:#f8f9fa;
+}
+
+.contact-hero{
+    background:#dc3545;
+    padding:100px 0;
+}
+
+.contact-card{
+    background:#fff;
+    padding:30px;
+    border-radius:20px;
+    box-shadow:0 5px 20px rgba(0,0,0,.08);
+}
+
+.form-control{
+    border-radius:12px;
+    padding:12px;
+}
+
+.btn-danger{
+    border-radius:10px;
+}
+
+/* =========================
+   contact */
+    
